@@ -7,8 +7,15 @@
     margin: 0;
     width: 1000px;
 }
-.titolo {
-    background-color: rgb(43, 43, 141);
-    color: rgb(145, 183, 196);
+.container {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.box {
     text-align: center;
+    background-color: blanchedalmond;
+    width: calc((100% / 3) - 60px)  
 }
